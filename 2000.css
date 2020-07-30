@@ -76,6 +76,10 @@ BLOG TITLE AND SUBTITLE
 .subtitle {
   color: black;
   background-color: #66ffcc;
+  padding: 5px;
+  border-style: double none;
+  border-color: black;
+  font-size: 15px;
 }
 
 /*
@@ -88,7 +92,7 @@ SECOND NAV BAR
   background-color: yellowgreen;
   overflow: hidden;
   font-family: "Arial", Helvetica, sans-serif;
-  padding: 2px;
+  padding: 5px 0;
   margin-bottom: 20px;
 }
 
@@ -134,7 +138,7 @@ BLOG
   color: black;
   padding: 20px;
   background-color: white;
-  margin: 10px;
+  margin: 0 5px 10px 5px;
   padding-top: 0;
 }
 
@@ -158,9 +162,20 @@ ARCHIVE CLASS
 */
 
 .archive {
-  color: magenta;
+  color: white;
   grid-area: grid-right;
   width: 170px;
+  background: rgb(255,137,245);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.archive-list {
+  text-align: left;
+}
+
+#email {
+  font-style: italic;
 }
 
 #ad1 {
@@ -176,4 +191,13 @@ ARCHIVE CLASS
 #ad4 {
   height: auto;
   width: 170px;
+}
+
+footer {
+  color: grey;
+  background-color: #66ffcc;
+  padding: 5px;
+  border-style: double none none none;
+  border-color: black;
+  margin-top: 15px;
 }
